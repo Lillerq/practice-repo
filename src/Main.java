@@ -29,5 +29,7 @@ public class Main {
         System.out.println("This is the player that dared enter the goblin cave...\nName: " + player1.getName() + "\nHealth: " + player1.getHealth());
         player1.takeDamage(20);
         System.out.println(player1.getHealth());
+        player1.takeDamage(10);
+        System.out.println(player1.getHealth());
     }
 }
